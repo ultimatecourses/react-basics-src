@@ -1,0 +1,24 @@
+.stopwatch-frame {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.stopwatch-frame h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.stopwatch-frame span {
+  text-align: center;
+  margin-bottom: 0.5em;
+  font-size: 3em;
+}
+
+.stopwatch-frame button {
+  font-size: 2em;
+  max-width: max-content;
+  align-self: center;
+}

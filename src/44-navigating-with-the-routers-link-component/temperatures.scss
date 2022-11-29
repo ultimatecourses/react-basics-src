@@ -1,0 +1,45 @@
+body {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+main,
+footer {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+  section {
+    h1 {
+      text-align: center;
+    }
+  }
+}
+
+dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  dt {
+    justify-self: right;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav[aria-label="Main"] {
+  li {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+footer {
+  ul {
+    display: flex;
+    justify-content: space-around;
+  }
+}

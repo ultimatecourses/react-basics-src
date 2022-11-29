@@ -1,0 +1,11 @@
+section {
+  display: flex;
+  flex-direction: column;
+  max-width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section button {
+  margin-top: 2em;
+}
